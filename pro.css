@@ -2,6 +2,11 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+header {
+	background: #ffcbdb;
+	padding: 20px 0;
+}
+
 .caixa {
 	position: relative;
 	width: 940px;
@@ -49,6 +54,7 @@ nav a:hover {
 	border: 2px solid #000000;
 	border-radius: 10px;
 }
+
 .produtos li:hover {
 	border-color: #C78C19;
 }
@@ -88,7 +94,9 @@ footer {
 	margin: 20px 0 0;
 }
 
-
+main {
+	
+}
 
 form {
 	margin: 40px 0;
@@ -144,6 +152,8 @@ td, th {
 	padding: 8px 15px;
 }
 
+
+/* css da página inicial */
 .banner {
 	width:100%;
 }
@@ -223,8 +233,21 @@ td, th {
 	content: "🟊";
 }
 
+.imagem-beneficios {
+	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 10px 0 #000000;
+}
 
+.imagem-beneficios:hover {
+	opacity: 0.3;
+}
 
+.video {
+	width: 560px;
+	margin: 2em auto;
+}
 
 @media screen and (max-width: 480px) {
 	.caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
